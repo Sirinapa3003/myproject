@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<link href="login&Sign up.css" rel="stylesheet" >
+
+<div class="container right-panel-active">
+<!-- Sign Up -->
+<div class="container__form container--signup">
+  <form action="process_signup.php" method="POST" class="form" id="form1">
+      <h2 class="form__title">สมัครสมาชิก</h2>
+      <input type="text" name="username" placeholder="User" class="input" />
+      <input type="email" name="email" placeholder="Email" class="input" />
+      <input type="password" name="password" placeholder="Password" class="input" />
+      <button type="submit" class="btn">สมัครสมาชิก</button>
+  </form>
+</div>
+
+  
+    <!-- Sign In -->
+    <div class="container__form container--signin">
+      <form action="#" class="form" id="form2">
+        <h2 class="form__title">เข้าสู่ระบบ</h2>
+        <input type="email" placeholder="Email" class="input" />
+        <input type="password" placeholder="Password" class="input" />
+        <a href="#" class="link">คุณลืมรหัสผ่านเหรอ ?</a>
+        <button class="btn">เข้าสู่ระบบ</button>
+      </form>
+    </div>
+  
+    <!-- Overlay -->
+    <div class="container__overlay">
+      <div class="overlay">
+        <div class="overlay__panel overlay--left">
+          <button class="btn" id="signIn">เข้าสู่ระบบ</button>
+        </div>
+        <div class="overlay__panel overlay--right">
+          <button class="btn" id="signUp">สมัครสมาชิก</button>
+        </div>
+      </div>
+    </div>
+
+<!-- โค้ด HTML อื่น ๆ ... -->
+
+<!-- ปุ่มหรือลิงก์ไปที่หน้า index.html -->
+<a href="index.html" class="btn btn-back-to-home">กลับไปหน้าแรก</a>
+
+<!-- โค้ด HTML อื่น ๆ ... -->
+
+
+    <script src="script.js"></script>
+
+  </div>
